@@ -56,3 +56,27 @@ print(type(a3))
 
 # Assign values to variables
 p , q , r = 10 , 20 , 30
+
+
+
+# Keywords in Python
+# Keywords are reserved words in Python
+# Reserved words have a predefined meaning in any programming language
+# They are used to define syntax and structure in Python Language
+# They cannot be used to define any identifier such as variable name , function name , or class name
+# True , False and None are keywords that start from capital letters rest all keywords begin with small letters
+
+# Listing all keywords
+import keyword
+print(keyword.kwlist)
+
+
+
+# Comments in Python
+
+# Hash (#) is used to comment statement in Python
+# When # hash is encountered , python will ignore the comment
+# There is no concept of multi line comment in python
+# To comment multiple lines  ,each line has to be commented individually using hash
+# Though triple quoted strings are provided in python, but its used as documentation string and not a comment
+
